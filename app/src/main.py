@@ -10,7 +10,7 @@ def plot_timeline(time: ndarray, interactions: ndarray, peaks):
     plt.scatter(time[peaks], interactions[peaks], c='red', s=10, linewidth=0)
     fig = plt.gcf()
     fig.set_size_inches(18.5, 10.5)
-    plt.savefig("plot_1_public.png", dpi=100)
+    plt.savefig('../resources/output/public_1.png', dpi=100)
 
 
 def initialize():
